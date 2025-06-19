@@ -1,0 +1,77 @@
+*{ /* Define as principais propriedades de fonte cor e sombreados */
+    font-family: 'Metal Mania', cursive, monospace;
+    color:black;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+}
+
+
+nav {   /* Define o menu de navegação */
+    margin-bottom: auto;
+    background-size: cover;
+    background-color: transparent;
+    display: flex;
+    justify-content:space-around;
+    align-content: center;
+    align-items: center;
+    
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+    padding-bottom: 350px;
+    font-style: normal;
+
+}
+
+a{  /* Define o estilo dos links */
+    padding: 2%;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(../img/M72_05.jpg); /* Define a imagem de fundo */
+    background-size:cover; /* Faz a imagem cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Impede a repetição da imagem de fundo */
+    padding: auto;;
+}
+
+#sobre{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: justify;
+    text-align: center;
+    margin: 20px;
+    margin-right: 20%;
+    margin-left: 20%;
+    font-size: 24px;
+}
+
+#textosobre{
+text-align: justify;
+}
+
+footer,footer * {   /* Define o rodapé do site */
+    display: flex;  
+    justify-content: center;
+    background-color: black;
+    color: white !important;
+    text-align: center;
+    width: 100%;
+    font-size: 18px !important;
+    align-content: stretch;              
+    flex-direction: row;    
+    flex-wrap: wrap;    
+    align-items: center;    
+    padding: 0%;
+    margin-top: auto;
+}

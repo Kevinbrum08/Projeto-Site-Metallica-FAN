@@ -1,0 +1,95 @@
+*{ /* Define as principais propriedades de fonte cor e sombreados */
+    font-family: 'Metal Mania', cursive, monospace;
+    color:black;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+}
+
+
+nav {   /* Define o menu de navegação */
+    margin-bottom: auto;
+    background-size: cover;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+    padding-bottom: 350px;
+    font-style: normal;
+
+}
+
+a{  /* Define o estilo dos links */
+    padding: 2%;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(../img/metallica-int.png); /* Define a imagem de fundo */
+    background-size:cover; /* Faz a imagem cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Impede a repetição da imagem de fundo */
+    padding: auto;;
+}
+
+p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+#integrantes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: justify;
+    text-align: center;
+    margin: 50px;
+    font-size: 30px;
+
+}
+
+#ft-integrantes {   /* Define o estilo da grade secundária para os integrantes */
+    display: grid;  /* Utiliza o modelo de layout de grade */
+    grid-template-columns: repeat(2, 1fr);  /* Cria duas colunas de tamanho igual */
+    gap:40px; /* Espaçamento entre as células da grade */
+    list-style-type: none;
+    margin: 0 auto; /* Centraliza a grade na página */
+    width: 80%; /* Define a largura da grade */
+}
+
+#ft-integrantes img {    /* Define o estilo das imagens na grade secundária */
+    width: 100%; /* Faz com que a imagem ocupe toda a largura da célula */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 20px; /* Adiciona bordas arredondadas às imagens */
+    display: block; /* Garante que as imagens sejam tratadas como blocos */
+}
+
+
+
+footer,footer * {   /* Define o rodapé do site */
+    display: flex;  
+    justify-content: center;
+    background-color: black;
+    color: white !important;
+    text-align: center;
+    width: 100%;
+    font-size: 18px !important;
+    align-content: stretch;              
+    flex-direction: row;    
+    flex-wrap: wrap;    
+    align-items: center;    
+    padding: 0%;
+    margin-top: auto;
+}

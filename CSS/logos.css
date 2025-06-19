@@ -1,0 +1,105 @@
+*{ /* Define as principais propriedades de fonte cor e sombreados */
+    font-family: 'Metal Mania', cursive, monospace;
+    color:rgb(0, 0, 0);
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+}
+
+
+nav {   /* Define o menu de navegação */
+    margin-bottom: auto;
+    background-size: cover;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    
+}
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+
+}
+
+a{  /* Define o estilo dos links */
+    padding: 2%;
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(../img/all.jpg); /* Define a imagem de fundo */
+    background-size:cover; /* Faz a imagem cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Impede a repetição da imagem de fundo */
+    padding: auto;;
+}
+
+
+#lgs{   /* Define o estilo da grade principal para os logos */      
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: justify;
+    text-align: center;
+    margin: 20px;
+    margin-right: 20%;
+    margin-left: 20%;
+    font-size: 24px;
+    padding-top: 100px;
+
+}
+
+#ft-lgs{   /* Define o estilo da grade secundária para os logos */
+    display: grid;  /* Utiliza o modelo de layout de grade */
+    grid-template-columns: repeat(2, 1fr);  /* Cria duas colunas de tamanho igual */
+    gap:50px; /* Espaçamento entre as células da grade */
+    padding: 20px;
+    margin-bottom: 100px;
+    list-style-type: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+
+}
+
+#ft-lgs img {    /* Define o estilo das imagens na grade secundária */
+    width: 100%; /* Faz com que a imagem ocupe toda a largura da célula */
+    height: 70%; /* Mantém a proporção da imagem */
+    border-radius: 20px; /* Adiciona bordas arredondadas às imagens */
+}
+
+p{
+    text-align: justify;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer,footer * {   /* Define o rodapé do site */
+    display: flex;  
+    justify-content: center;
+    background-color: black;
+    color: white !important;
+    text-align: center;
+    width: 100%;
+    font-size: 18px !important;
+    align-content: stretch;              
+    flex-direction: row;    
+    flex-wrap: wrap;    
+    align-items: center;    
+    padding: 0%;
+    margin-top: auto;
+}

@@ -1,0 +1,158 @@
+*{ /* Define as principais propriedades de fonte cor e sombreados */
+    font-family: 'Metal Mania', cursive, monospace;
+    color:black;
+    text-shadow: 2px 2px 8px rgb(0, 0, 0);
+}
+h1, h5{ /* Define as cores de h1 e h5 */
+    color:white; 
+}
+header {    /* Define o cabeçalho do site */
+    text-align: center;
+}
+nav {   /* Define o menu de navegação */
+    background-image: url(../img/poa-22.png);
+    background-size: cover;
+    background-color: transparent;
+    padding-bottom: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    
+}
+
+#bg-entre { /* Define bg Metallica*/
+    width: 100%;
+    height: 200px; /* ajuste a altura conforme desejar */
+    background-image: url(../img/metallica-logo.png); /* caminho da imagem desejada */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 350px;
+
+}
+
+
+#audio, h2{ /* Define o player de áudio */
+    position: absolute;
+    top:150px;
+    width: 280px;
+    height: 100px;
+    background-color: transparent;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+    text-shadow: 3px 3px 10px rgb(0, 0, 0);
+}
+#audio-player{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+a{  /* Define o estilo dos links */
+    padding: 2%;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+#hdr2 { /* Define o cabeçalho secundário */
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    position:relative;
+    margin-top: -30%;
+}
+
+#main{  /* Define o conteúdo principal do site */
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p{  /* Define o estilo dos parágrafos */
+    text-align: justify;
+    font-size: 30px;
+    color: #ffffff;
+    padding-top: 130px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-shadow: 3px 3px 10px rgb(0, 0, 0);
+    
+}
+
+
+#fotos{ /* Define a seção de fotos */
+    padding-top: 0px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.grid { /* Define o layout da grade de fotos */
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 40px;
+    max-width: 1500px;       
+    padding: 0;
+    list-style-type: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grid img { /* Define o estilo das imagens na grade */
+    object-fit: cover; /* Faz com que a imagem preencha a célula sem distorção */
+    width: 100%; /* Faz com que a imagem ocupe toda a largura da célula */
+    height: 100%; /* Mantém a proporção da imagem */
+    border-radius: 20px; /* Adiciona bordas arredondadas às imagens */
+}
+
+.grid1{ /* Define o layout da grade de fotos secundária */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    max-width: 900px;
+    width: 100%;       
+    padding-top: 50px;
+    padding-right: 50px;
+    list-style-type: none;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-items: center;
+}
+.grid1 img {    /* Define o estilo das imagens na grade secundária */
+    width: 100%; /* Faz com que a imagem ocupe toda a largura da célula */
+    height: 100%; /* Mantém a proporção da imagem */
+    border-radius: 20px; /* Adiciona bordas arredondadas às imagens */
+}
+
+footer,footer * {   /* Define o rodapé do site */
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white !important;
+    text-align: center;
+    width: 100%;
+    padding: 0%;
+    font-size: 18px !important;
+    align-content: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: auto;
+}
